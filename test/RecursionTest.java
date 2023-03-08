@@ -48,4 +48,28 @@ class RecursionTest {
         assertEquals(4181, recursion.fibonacci(19));
     }
 
+    @Test
+    void fibonacciRecursiveCache19() {
+        assertEquals(4181, recursion.fibonacciRecursiveCache(19));
+    }
+
+    @Test
+    void fibonacciRecursiveCache13() {
+        assertEquals(233, recursion.fibonacciRecursiveCache(13));
+    }
+
+    @Test
+    void fibonacciRecursiveCache5() {
+        assertEquals(5, recursion.fibonacciRecursiveCache(5));
+    }
+
+    @Test
+    void fibonacciRecursiveCache1() {
+        assertEquals(1, recursion.fibonacciRecursiveCache(1));
+    }
+
+    @Test
+    void fibonacciRecursiveCache0() {
+        assertEquals(0, recursion.fibonacciRecursiveCache(0));
+    }
 }
