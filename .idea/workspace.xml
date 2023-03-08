@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4ad52aa-6c27-473c-8dd6-8aa03204bf08" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/RecursionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/RecursionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678194998457</updated>
       <workItem from="1678194999838" duration="6297000" />
-      <workItem from="1678258191947" duration="19125000" />
+      <workItem from="1678258191947" duration="20895000" />
     </task>
     <task id="LOCAL-00001" summary="initial project commit">
       <created>1678196311607</created>
@@ -188,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678283625245</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fibonacci recursive solution with cache tests">
+      <created>1678284029133</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678284029133</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +214,8 @@
     <MESSAGE value="Fibonacci recursive and iterative solution + tests" />
     <MESSAGE value="Fibonacci recursive and iterative solution + tests improvement" />
     <MESSAGE value="Fibonacci recursive solution with cache" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci recursive solution with cache" />
+    <MESSAGE value="Fibonacci recursive solution with cache tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci recursive solution with cache tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

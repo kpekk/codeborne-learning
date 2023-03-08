@@ -26,24 +26,24 @@ public class Recursion {
     }
 
     public long fibonacci(int n) {
-        long n1 = 0;
-        long n2 = 1;
-        long n3 = 0;
+        long previous1 = 0;
+        long previous2 = 1;
+        long sum = 0;
         for (int i = 1; i < n; i++) {
-            n3 = n1 + n2;
-            n1 = n2;
-            n2 = n3;
+            sum = previous1 + previous2;
+            previous1 = previous2;
+            previous2 = sum;
         }
-        return n3;
+        return sum;
     }
 
     public static void main(String[] args) {
         Recursion r = new Recursion();
 
         long startTime = System.nanoTime();
-        //System.out.println(r.fibonacciRecursive(40));
+        System.out.println(r.fibonacciRecursive(40));
         long endTime = System.nanoTime();
-        //System.out.println("f1: " + (endTime-startTime));
+        System.out.println("f1: " + (endTime-startTime));
 
         startTime = System.nanoTime();
         System.out.println(r.fibonacciRecursiveCache(50));

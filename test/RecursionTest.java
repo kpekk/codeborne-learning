@@ -8,6 +8,7 @@ class RecursionTest {
 
     private final Recursion recursion = new Recursion();
 
+
     @Test
     void fibonacciRecursive0() {
         assertEquals(0, recursion.fibonacciRecursive(0));
@@ -46,6 +47,16 @@ class RecursionTest {
     @Test
     void fibonacci19() {
         assertEquals(4181, recursion.fibonacci(19));
+    }
+
+    @Test
+    void fibonacci0() {
+        assertEquals(0, recursion.fibonacci(0));
+    }
+
+    @Test
+    void fibonacci5() {
+        assertEquals(5, recursion.fibonacci(5));
     }
 
     @Test
