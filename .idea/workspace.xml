@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ad52aa-6c27-473c-8dd6-8aa03204bf08" name="Changes" comment="" />
+    <list default="true" id="e4ad52aa-6c27-473c-8dd6-8aa03204bf08" name="Changes" comment="Optimize imports">
+      <change afterPath="$PROJECT_DIR$/src/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/RecursionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,52 +66,48 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FactorialTest.divideFactorialsRecursiveMinus">
-    <configuration name="FactorialTest.divideFactorialsRecursiveMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Recursion">
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion" />
+      <module name="factorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="factorial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
-      <option name="METHOD_NAME" value="divideFactorialsRecursiveMinus" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTest.fibonacci19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="factorial" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTest" />
+      <option name="METHOD_NAME" value="fibonacci19" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialTest.twoNumsMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursionTest.fibonacci2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="factorial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
-      <option name="METHOD_NAME" value="twoNumsMinus" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTest" />
+      <option name="METHOD_NAME" value="fibonacci2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialTest.twoNumsRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursionTest.fibonacci5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="factorial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
-      <option name="METHOD_NAME" value="twoNumsRecursive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialTest.twoNumsSwappedSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="factorial" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
-      <option name="METHOD_NAME" value="twoNumsSwappedSmall" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialTest.twoNumsSwpped" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="factorial" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
-      <option name="METHOD_NAME" value="twoNumsSwpped" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTest" />
+      <option name="METHOD_NAME" value="fibonacci5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FactorialTest.divideFactorialsRecursiveMinus" />
-        <item itemvalue="JUnit.FactorialTest.twoNumsMinus" />
-        <item itemvalue="JUnit.FactorialTest.twoNumsSwappedSmall" />
-        <item itemvalue="JUnit.FactorialTest.twoNumsRecursive" />
-        <item itemvalue="JUnit.FactorialTest.twoNumsSwpped" />
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="JUnit.RecursionTest" />
+        <item itemvalue="JUnit.RecursionTest.fibonacci19" />
+        <item itemvalue="JUnit.RecursionTest.fibonacci2" />
+        <item itemvalue="JUnit.RecursionTest.fibonacci5" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678194998457</updated>
       <workItem from="1678194999838" duration="6297000" />
-      <workItem from="1678258191947" duration="7583000" />
+      <workItem from="1678258191947" duration="12612000" />
     </task>
     <task id="LOCAL-00001" summary="initial project commit">
       <created>1678196311607</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678266117966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Optimize imports">
+      <created>1678266142807</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678266142807</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +182,8 @@
     <MESSAGE value="support zero" />
     <MESSAGE value="support one" />
     <MESSAGE value="Recursive and iterative solutions for 1) simple factorial and 2) the quotient of the factorials of two numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursive and iterative solutions for 1) simple factorial and 2) the quotient of the factorials of two numbers" />
+    <MESSAGE value="Optimize imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize imports" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
