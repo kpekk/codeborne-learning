@@ -131,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678194998457</updated>
       <workItem from="1678194999838" duration="6297000" />
-      <workItem from="1678258191947" duration="16259000" />
+      <workItem from="1678258191947" duration="18739000" />
     </task>
     <task id="LOCAL-00001" summary="initial project commit">
       <created>1678196311607</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678271814363</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fibonacci recursive and iterative solution + tests improvement">
+      <created>1678281144045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678281144045</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +197,8 @@
     <MESSAGE value="Recursive and iterative solutions for 1) simple factorial and 2) the quotient of the factorials of two numbers" />
     <MESSAGE value="Optimize imports" />
     <MESSAGE value="Fibonacci recursive and iterative solution + tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci recursive and iterative solution + tests" />
+    <MESSAGE value="Fibonacci recursive and iterative solution + tests improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci recursive and iterative solution + tests improvement" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
